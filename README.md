@@ -1,9 +1,10 @@
 # convert-mysql-workbench-to-phpunit-xml
-Converts MysqlWorkbench exported xml to phpunit 3.7 xml format
+Converts MysqlWorkbench exported tables xml to phpunit 3.7 xml format
 
 #Installation
 #
 Just clone the script to your machine and run using php5
 #
-Running app
+#Usage
+php5 convertXML.php workbench-output-xml-file.xml tableName
 
